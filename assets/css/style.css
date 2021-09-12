@@ -20,7 +20,7 @@ body {
 
 .container {
   max-width: 800px;
-  margin: 100px auto;
+  margin-top: 70px !important;
   background: #fff;
   padding: 20px;
   height: 400px;
@@ -67,21 +67,11 @@ form button:hover {
   color: #fff;
   font-weight: 300;
 }
-button{
-  color: rgb(65, 65, 65);
-  cursor: pointer;
-  border: none;
-  background: none;
-  font-size: 18px;
-  text-transform: uppercase;  
-  font-weight: bold;
-  padding-left: 70px;
-  transition: all ease 0.3s;
+a{
+ margin-left: 50px;
 }
 .buttons{
   margin-top: 20px;
-  margin-left: 120px;
+  margin-left: 165px;
 }
-button:hover{
-  color: rgb(22, 22, 22);
-}
+

@@ -5,16 +5,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Timer</title>
+  <title>Modelo</title>
   <link rel="stylesheet" href="./assets/css/style.css">
+
+
+   <!-- Compiled and minified CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+   <!-- Compiled and minified JavaScript -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+           
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 </head>
 
 <body>
     <section class="container">
       <div class="buttons">
-        <button class="iniciar">Iniciar</button>
-        <button class="pausar">Pausar</button>
-        <button class="zerar">Zerar</button>
+        <a class="waves-effect waves-light btn btn-tarefa black iniciar"><i class="material-icons right">play_arrow</i>Iniciar</a>
+        <a class="waves-effect waves-light btn btn-tarefa black pausar"><i class="material-icons right">pause</i>Pausar</a>
+        <a class="waves-effect waves-light btn btn-tarefa black zerar"><i class="material-icons right">stop</i>Zerar</a>
       </div>
       <p class="relogio">00:00:00</p>
     </section>
